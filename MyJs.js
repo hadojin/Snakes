@@ -10,7 +10,7 @@ var playertwomove = $('<button type="button" class="move2 btn btn-primary">Move 
 var snd = new Audio("https://www.soundjay.com/button/sounds/button-7.mp3");
 var snd1 = new Audio("https://www.soundjay.com/button/sounds/button-09.mp3");
 var snd2 = new Audio("images/TADA.wav");
-var doyou = new Audio("https://www.soundjay.com/button/sounds/button-14.mp3");
+var doyou = new Audio("images/doyou.wav");
 var descend = new Audio("https://www.soundjay.com/button/sounds/button-2.mp3");
 var ascend = new Audio("https://www.soundjay.com/button/sounds/button-14.mp3");
 var rolls1=0;
