@@ -1,0 +1,123 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="bodeh container">
+        <p class="header">Snakes and ladders</p>
+
+        <div class="row">
+            <div class="col-lg-2">
+                <table class="table-bordered player1score">
+                    <tbody>
+                        <tr><p class="Score1">Player One Score: <span id="score1" ></span></p><tr>
+                    </tbody>
+                </table>
+
+                <table class="table-bordered player1dice">
+                    <tbody>
+                        <tr>Player One Rolls</tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+            <div class="main col-lg-8">
+                <p id="Statement"></p>
+                <table class="mytable">
+
+                    <tbody>
+                        <tr>
+                            <td id="A25"><img src="images/25.jpg" width="100" height="100"></td>
+                            <td id="A26"><img src="images/26.jpg" width="100" height="100"></td>
+                            <td id="A27"><img src="images/27.jpg" width="100" height="100"></td>
+                            <td id="A28"><img src="images/28.jpg" width="100" height="100"></td>
+                            <td id="A29"><img src="images/29.jpg" width="100" height="100"></td>
+                            <td id="A30"><img id="queen" src="images/queen.png" width="100" height="100"> <img src="images/30.jpg" width="100" height="100"></td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td id="A24"><img src="images/24.jpg" width="100" height="100"></td>
+                            <td id="A23"><img src="images/23.jpg" width="100" height="100"></td>
+                            <td id="A22"><img src="images/22.jpg" width="100" height="100"></td>
+                            <td id="A21"><img src="images/21.jpg" width="100" height="100"></td>
+                            <td id="A20"><img src="images/20.jpg" width="100" height="100"></td>
+                            <td id="A19"><img src="images/19.jpg" width="100" height="100"></td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td id="A13"><img src="images/13.jpg" width="100" height="100"></td>
+                            <td id="A14"><img src="images/14.jpg" width="100" height="100"></td>
+                            <td id="A15"><img src="images/15.jpg" width="100" height="100"></td>
+                            <td id="A16"><img src="images/16.jpg" width="100" height="100"></td>
+                            <td id="A17"><img src="images/17.jpg" width="100" height="100"></td>
+                            <td id="A18"><img src="images/18.jpg" width="100" height="100"></td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td id="A12"><img src="images/12.jpg" width="100" height="100"></td>
+                            <td id="A11"><img src="images/11.jpg" width="100" height="100"></td>
+                            <td id="A10"><img src="images/10.jpg" width="100" height="100"></td>
+                            <td id="A9"><img src="images/9.jpg" width="100" height="100"></td>
+                            <td id="A8"><img src="images/8.jpg" width="100" height="100"></td>
+                            <td id="A7"><img src="images/7.jpg" width="100" height="100"></td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td id="A1"><img src="images/1.jpg" width="100" height="100"></td>
+                            <td id="A2"><img src="images/2.jpg" width="100" height="100"></td>
+                            <td id="A3"><img src="images/3.jpg" width="100" height="100"></td>
+                            <td id="A4"><img src="images/4.jpg" width="100" height="100"></td>
+                            <td id="A5"><img src="images/5.jpg" width="100" height="100"></td>
+                            <td id="A6"><img src="images/6.jpg" width="100" height="100"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button type="button" class="Start btn btn-danger"><span class="START">Start Game</span></button>
+                <button type="button" class="dice btn btn-primary">Throw dice</button>
+                <button type="button" class="move btn btn-primary">Move Player</button>
+
+
+            </div>
+            <div class=" col-lg-2">
+                 <table class="table-bordered player2score">
+                    <tbody>
+                        <tr><p class="Score2">Player Two Score: <span id="score2" ></span></p><tr>
+                    </tbody>
+                </table>
+                <table class="table-bordered player2dice">
+                    <tbody>
+                        <tr>Player Two Rolls</tr>
+
+                    </tbody>
+                </table>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <audio id="sound1" src="https://www.soundjay.com/button/sounds/button-7.mp3"></audio>
+
+    <script src="MyJs.js"></script>
+</body>
+
+</html>

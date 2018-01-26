@@ -1,0 +1,37 @@
+
+
+#player {
+    position: absolute;
+    z-index: 3
+}
+
+.mytable {
+    background-color: black;
+}
+
+#Statement {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 3px;
+    text-shadow: 1px 1px red;
+}
+
+.header {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+#queen {
+    position: absolute;
+    z-index: 2
+}
+
+#playertwo{
+    position: absolute;
+    z-index: 4}
+
+.Score1,.Score2 {
+    font-size: 20px;
+    font-weight: bolder;
+}
