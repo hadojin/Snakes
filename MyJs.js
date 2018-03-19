@@ -8,7 +8,7 @@ var player1 = $('<img src="images/player.png" id="player" width="100" height="10
 var player2 = $('<img src="images/playertwo.png" id="playertwo" width="100" height="100">')
 var playertwomove = $('<button type="button" class="move2 btn btn-primary">Move Player2</button>')
 var snd = new Audio("https://www.soundjay.com/button/sounds/button-7.mp3");
-var snd1 = new Audio("https://www.soundjay.com/button/sounds/button-09.mp3");
+var snd1 = new Audio("images/doyou.wav");
 var snd2 = new Audio("images/TADA.wav");
 var doyou = new Audio("https://www.soundjay.com/button/sounds/button-09.mp3");
 var descend = new Audio("https://www.soundjay.com/button/sounds/button-2.mp3");
